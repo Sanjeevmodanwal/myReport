@@ -1,0 +1,30 @@
+.ion-grid { width:100%;max-width:1360px ;margin:auto; float: none; }
+.ion-col{float:left; height:auto; width:29%;}
+.ion-row { width:100%;height:auto; min-width:300px !important;float:left;}
+
+.ion-row:first-child .ion-col, .ion-row:first-child .ion-col:first-child
+{
+    background-color:#0085C4; color:#fff;
+}
+.ion-row .ion-col:first-child { background-color:#eee; }
+
+.ion-col {padding: 5px;
+    border: solid 1px grey;
+    border-bottom-style: none;
+    border-right-style: none;
+
+}
+
+.ion-col:last-child {
+    border-right: solid 1px grey;
+}
+
+.ion-row:last-child .ion-col {
+    border-bottom: solid 1px grey;
+}
+
+
+.ion-row:first-child .summarycell{
+    font-weight: bold;
+    text-align: center;
+}

@@ -21,53 +21,23 @@
     </ion-col>
   </ion-row>
 
+  <div *ngFor="let item of items">
   <ion-row class="ion-row ion-justify-content-center">
     <ion-col class="ion-col">
-       India
+      {{item.cname}}
     </ion-col>
-    <ion-col class="ion-col">0    </ion-col>
-    <ion-col class="ion-col">0    </ion-col>
+    <ion-col class="ion-col"> {{item.walkin_chnd}}</ion-col>
+    <ion-col class="ion-col"> {{item.total_walkin}}</ion-col>
   </ion-row>
+</div>
 
-  <ion-row class="ion-row ion-justify-content-end">
-    <ion-col class="ion-col">
-      Australia
-    </ion-col>
-     <ion-col class="ion-col">0    </ion-col>
-    <ion-col class="ion-col">0    </ion-col>
-  </ion-row>
 
-  <ion-row class="ion-row ion-justify-content-around">
-    <ion-col class="ion-col">
-        Canada  
-    </ion-col>
-   <ion-col class="ion-col">  0  </ion-col>
-    <ion-col class="ion-col">  0  </ion-col>
-  </ion-row>
+ 
 
-  <ion-row class="ion-row ion-justify-content-between">
-    <ion-col class="ion-col">
-       UK
-    </ion-col>
-     <ion-col class="ion-col">0    </ion-col>
-    <ion-col class="ion-col">0    </ion-col>
-  </ion-row>
+  
 
-  <ion-row class="ion-row ion-justify-content-evenly">
-    <ion-col class="ion-col">
-     USA
-    </ion-col>
-     <ion-col class="ion-col">0    </ion-col>
-    <ion-col class="ion-col">0    </ion-col>
-  </ion-row>
 
-  <ion-row class="ion-row ion-align-items-start">
-    <ion-col class="ion-col">
-      New Zeland
-    </ion-col>
-     <ion-col class="ion-col">0    </ion-col>
-    <ion-col class="ion-col">0    </ion-col>
-  </ion-row>
+ 
 
 
 </ion-grid>
